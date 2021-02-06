@@ -13,11 +13,71 @@ text-align: center;
 .center{
 text-align: center;
 }
+header {
+
+  position:fixed;
+  top:0;
+  left:0;
+
+}
+
+body {
+
+  margin-top: 100px;
+
+}
+* {
+  margin:0; padding:0;
+}
+header {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+header .headline{
+  font-size: 32px;
+background-color: #174a5c;
+}
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+background-color: #174a5c;
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+background-color: #174a5c;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #174a5c;
+    color: white;
+    text-align: center;
+}
+ul.footer-menu li {
+display: inline;
+}
 </style>
 </style>
 </head>
 <body>
-<h1 class="center">りーくんJapan公式サイト</h1>
+<!-- header -->
+<header>
+  <h1 class="headline">
+    <a>りーくんJapan公式サイト</a>
+  </h1>
+  <ul class="nav-list">
+    <li class="nav-list-item">
+      <a>Home</a>
+    </li>
+    <li class="nav-list-item"><a href="https://press.riikunlog.com">りーくんJapanプレスリリース</a></li>
+    <li class="nav-list-item"><a href="link.html">リンク集</a></li>
+  </ul>
+</header>
 <h2 class="center">りーくんJapanとは</h2>
 <p class="center">ブログをメインとしメールマガジンやPodCastサービスなどを通しガジェットや鉄道の面白さを伝えております</p>
 <h2 class="center">プレスリリース</h2>
@@ -25,5 +85,16 @@ text-align: center;
 <p class="center"><a href="https://press.riikunlog.com/rss.xml">りーくんJapanプレスリリースRSS</a></p>
 <iframe src="https://blogroll.livedoor.net/312747/iframe" allowtransparency="true"></iframe>
 </noscript>
+<p class="center"><a href="press.riikunlog.com">りーくんJapanPressRelease</a></p>
+<!-- footer -->
+  <footer>
+　　<ul class="footer-menu">
+     <li>home ｜</li>
+     <li><a href=sitemap.html>サイトマップ </a>｜</li>
+     <li><a href="mailto:contact.us@riikunlog.com">Contact Us</a></li>
+    </ul>
+    <p>© 2021 RiikunJapan Co.,LTD</p>
+  </footer>
 </body>
 </html>
+
