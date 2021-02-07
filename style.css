@@ -68,3 +68,41 @@ table {
     margin: 3px auto;    /* 上下3px 左右auto */
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.init{
+    background: black;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+.init h1{
+    color: #ecf0f1;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 3em;
+}
+
+span{
+    transition: all .3s;
+}
+
+.coloring{
+    color: #812990;
+}
+
+.fadeout {
+    animation : fadeOut 2s;
+  }
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
